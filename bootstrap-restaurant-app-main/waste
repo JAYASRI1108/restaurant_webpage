@@ -1,0 +1,159 @@
+<!-- start menu Section -->
+
+      <section id="menu" class="menu section-bg">
+        <div class="container max-width-container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Menu</h2>
+            <p>Check Our Tasty Menu</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="menu-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-drinks">Drinks</li>
+                <li data-filter=".filter-salads">Salads</li>
+                <li data-filter=".filter-specialty">Specialty</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="row menu-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-6 menu-item filter-drinks">
+              <img
+                src="assets/img/menu/schweppes-tonic.jpg"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Chicken noodles</a><span>Rs.80</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img
+                src="assets/img/menu/cleopatra.jfif"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Chicken Rice</a><span>Rs 100</span>
+                </div>
+                <div class="menu-ingredients">
+                 A taste arises
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-drinks">
+              <img src="assets/img/menu/juice.jpeg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Fresh Orange Juice</a><span>Rs 76</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-salads">
+              <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Shawarma</a>
+                  <span>Rs 100</span>
+                </div>
+                <div class="menu-ingredients">
+                  "Indulge in an unforgettable culinary experience at our delightful restaurant where every dish is a masterpiece made with love."
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img src="assets/img/menu/beffy.jpg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Parotta</a><span>90</span>
+                </div>
+                <div class="menu-ingredients">
+                 You tongue asks
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-drinks">
+              <img src="assets/img/menu/mojito.jpg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Mojito</a><span>Rs 100</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-salads">
+              <img
+                src="assets/img/menu/nut-salad.jpg"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Nut Salad</a><span>Rs 60</span>
+                </div>
+                <div class="menu-ingredients">
+                  Lettuce, Arugula, Cherry Tomatoes, Grilled Chicken, Goat
+                  Cheese, Nut sauce, Balsamic.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-salads">
+              <img
+                src="assets/img/menu/burrata-salad.jpg"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Green chicken</a><span>24.0 dt</span>
+                </div>
+                <div class="menu-ingredients">
+                 Makes the sense of taste
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img src="assets/img/menu/juicy.jpg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Juicy</a><span>Rs 200</span>
+                </div>
+                <div class="menu-ingredients">
+                  Minced Meat, Fresh Tomato Sauce, Fresh Juice, Gratine
+                  With Grilled Cheese.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img src="assets/img/menu/juicy.jpg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Juicy</a><span>Rs 100</span>
+                </div>
+                <div class="menu-ingredients">
+                  Minced Meat, Fresh Tomato Sauce, Fresh Paris Marvel, Gratine
+                  With Grilled Cheese.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Menu Section -->

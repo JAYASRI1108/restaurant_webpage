@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Table</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .book-a-table {
+      padding: 60px 0;
+      background: #f8f9fa;
+    }
+    .section-title {
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    .section-title h2 {
+      font-size: 32px;
+      font-weight: bold;
+      position: relative;
+      padding-bottom: 15px;
+    }
+    .section-title h2 span {
+      color: #ff5821;
+    }
+    .form-control:focus {
+      border-color: #ff5821;
+      box-shadow: none;
+    }
+    .btn-primary {
+      background-color: #ff5821;
+      border-color: #ff5821;
+    }
+    .btn-primary:hover {
+      background-color: #e64e1e;
+      border-color: #e64e1e;
+    }
+  </style>
+</head>
+<body>
+
+<section id="booktable.html" class="book-a-table">
+  <div class="container">
+    <div class="section-title">
+      <h2>Book a <span>Table</span></h2>
+    </div>
+    <form id="bookTableForm" class="needs-validation" novalidate>
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="name">Your Name</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+          <div class="invalid-feedback">Please enter your name.</div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="email">Your Email</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+          <div class="invalid-feedback">Please enter a valid email.</div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="phone">Your Phone</label>
+          <input type="text" class="form-control" id="phone" name="phone" placeholder="Your Phone" required>
+          <div class="invalid-feedback">Please enter your phone number.</div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="date">Date</label>
+          <input type="date" class="form-control" id="date" name="date" required>
+          <div class="invalid-feedback">Please select a date.</div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="time">Time</label>
+          <input type="time" class="form-control" id="time" name="time" required>
+          <div class="invalid-feedback">Please select a time.</div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="people">Number of People</label>
+          <input type="number" class="form-control" id="people" name="people" placeholder="Number of people" required>
+          <div class="invalid-feedback">Please enter the number of people.</div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="occasion">Occasion</label>
+          <input type="text" class="form-control" id="occasion" name="occasion" placeholder="Occasion (e.g., Birthday)">
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="preferences">Special Preferences</label>
+          <input type="text" class="form-control" id="preferences" name="preferences" placeholder="Special Preferences">
+        </div>
+        <div class="col-md-12 mb-3">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message"></textarea>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="loading">Loading</div>
+        <div class="error-message"></div>
+        <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+      </div>
+      <div class="text-center">
+        <button class="btn btn-primary" type="submit">Send Message</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+</script>
+<script>
+  document.getElementById('bookTableForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Collect form data
+    const formData = new FormData(this);
+    const params = new URLSearchParams();
+
+    formData.forEach((value, key) => {
+      params.append(key, value);
+    });
+
+    // Redirect to the new page with the form data as query parameters
+    window.location.href = 'booktable.html?' + params.toString();
+  });
+</script>
+
+</body>
+</html>

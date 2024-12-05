@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Nishanth Restaurant</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon" />
+    <link href="assets/img/apple-touch-icon.ico" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css"
+    />
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- Template Main CSS File -->
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- Vendor JS Files -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+
+<!-- Template Main JS File -->
+<script src="main.js"></script>
+
+  </head>
+
+
+  <body>
+    <!-- ======= Top Bar ======= -->
+    <section
+      id="topbar"
+      class="d-flex align-items-center fixed-top topbar-transparent"
+    >
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start"
+      >
+        <i class="bi bi-phone d-flex align-items-center"
+          ><span>9876543212</span></i
+        >
+        <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"
+          ><span>Mon-Thu: 12:00 AM - 23:00 PM</span></i
+        >
+        <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"
+          ><span>Fri-Sun: 12:00 AM - 00:00 PM</span></i
+        >
+      </div>
+    </section>
+
+    <!-- ======= Header ======= -->
+    <header
+      id="header"
+      class="fixed-top d-flex align-items-center header-transparent"
+    >
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <div class="logo me-auto">
+          <h1><a href="index.html">Nishanth</a></h1>
+        </div>
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+            <li><a class="nav-link scrollto" href="#events">Events</a></li>
+            <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+
+        <a href="booktable.html" class="book-a-table-btn scrollto"
+          >Book a table</a
+        >
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+      <div class="hero-container max-width-container">
+        <div
+          id="heroCarousel"
+          data-bs-interval="5000"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+          <div class="carousel-inner" role="listbox">
+            <!-- Slide 1 -->
+            <div
+              class="carousel-item active"
+              style="background-image: url(assets/img/slide/slide-1.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    <span>Nishanth</span> Restaurant
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    tempting <strong> Foods</strong> many varieties.
+                  </p>
+                  <div>
+                    <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto" data-bs-toggle="modal" data-bs-target="#menuModal">Our Menu</a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div
+              class="carousel-item"
+              style="background-image: url(assets/img/slide/slide-2.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Our Spirit<span> !</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Break from the ordinary and escape to
+                    <strong>Nishanth</strong>, your personal slice of
+                    paradise! <strong>Nishanth</strong> is open seven days a
+                    week, for in- person service as well as takeout and
+                    delivery.
+                  </p>
+                  <div>
+                   <!-- Existing "Our Menu" button in the Hero Section -->
+<a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto" data-bs-toggle="modal" data-bs-target="#menuModal">Our Menu</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div
+              class="carousel-item"
+              style="background-image: url(assets/img/slide/slide-3.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Specialty <span>!</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Find The Perfect Recipe.
+                  </p>
+                  <div>
+                    <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto" data-bs-toggle="modal" data-bs-target="#menuModal">Our Menu</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#heroCarousel"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bi bi-chevron-left"
+              aria-hidden="true"
+            ></span>
+          </a>
+
+          <a
+            class="carousel-control-next"
+            href="#heroCarousel"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bi bi-chevron-right"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container-fluid max-width-container">
+          <div class="row">
+            <img src="assets/img/gallery/video.jpg" class="menu-img" alt="" width="500" height="500" />
+
+            <div
+              class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch"
+            >
+              <div class="content">
+                <br>
+                <br>
+                <h3>Discover <strong>OUR HISTORY</strong></h3>
+                <p>
+                  It is an Indian restaurant which tastes spicy foods and healthy foods.
+                </p>
+                <p class="fst-italic">WHAT you will taste at our place :</p>
+                <ul>
+                  <li>
+                    <i class="bx bx-check-double"></i> Chicken biriyani
+                  </li>
+                  <li><i class="bx bx-check-double"></i> Butter chicken</li>
+                  <li><i class="bx bx-check-double"></i>Meals.</li>
+                  <li><i class="bx bx-check-double"></i> paneer pulav.</li>
+                </ul>
+                <p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- start menu Section -->
+
+      
+      <!-- start menu Section -->
+
+      <div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="menuModalLabel">Today's Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Image</th>
+                                <th>Item</th>
+                                <th>Rate</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="assets/img/gallery/images.jpg" alt="Chicken Noodles" class="img-fluid" style="width: 100px; height: auto;"></td>
+                                <td>Chicken Noodles</td>
+                                <td>Rs. 210</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/img/gallery/rice.jpg" alt="Chicken Rice" class="img-fluid" style="width: 100px; height: auto;"></td>
+                                <td>Chicken Rice</td>
+                                <td>Rs. 210</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/img/gallery/sharwarma.jpg" alt="Shawarma" class="img-fluid" style="width: 100px; height: auto;"></td>
+                                <td>Shawarma</td>
+                                <td>Rs. 120</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/img/gallery/pani.jpg" alt="Pani Poori" class="img-fluid" style="width: 100px; height: auto;"></td>
+                                <td>Pani Poori</td>
+                                <td>Rs. 80</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/img/gallery/grill.jpg" alt="Grill Chicken" class="img-fluid" style="width: 100px; height: auto;"></td>
+                                <td>Grill Chicken</td>
+                                <td>Rs. 340</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/img/gallery/barbeque.jpg" alt="Barbeque" class="img-fluid" style="width: 100px; height: auto;"></td>
+                                <td>Barbeque</td>
+                                <td>Rs. 120</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/img/gallery/mr.jpg" alt="Mushroom Rice" class="img-fluid" style="width: 100px; height: auto;"></td>
+                                <td>Mushroom Rice</td>
+                                <td>Rs. 320</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/img/gallery/parotta.jpg" alt="Parotta" class="img-fluid" style="width: 100px; height: auto;"></td>
+                                <td>Parotta</td>
+                                <td>Rs. 80</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/img/gallery/en.jpg" alt="Egg Noodles" class="img-fluid" style="width: 100px; height: auto;"></td>
+                                <td>Egg Noodles</td>
+                                <td>Rs. 120</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/img/gallery/ff.jpg" alt="Finger Fish" class="img-fluid" style="width: 100px; height: auto;"></td>
+                                <td>Finger Fish</td>
+                                <td>Rs. 280</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/img/gallery/nv.jpg" alt="Non Veg Meals" class="img-fluid" style="width: 100px; height: auto;"></td>
+                                <td>Non Veg Meals</td>
+                                <td>Rs. 340</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/img/gallery/veg.jpg" alt="Veg Meals" class="img-fluid" style="width: 100px; height: auto;"></td>
+                                <td>Veg Meals</td>
+                                <td>Rs. 120</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/img/gallery/ice.jpg" alt="Ice Cream" class="img-fluid" style="width: 100px; height: auto;"></td>
+                                <td>Ice Cream</td>
+                                <td>Rs. 120</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      <!-- End Menu Section -->
+
+      <!-- ======= Events Section ======= -->
+      <section id="events" class="events">
+        <div class="swiper-container max-width-container">
+          <div class="section-title">
+            <h2>Organize Your <span>Events</span> in our Restaurant</h2>
+          </div>
+
+          <div class="events-slider swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6 d-lg-flex align-items-center">
+                    <img
+                      src="assets/img/events/event-birthday.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Birthday Celebrations</h3>
+                    
+                    <p class="fst-italic">
+                      Hosting a Birthday Party at our restaurant is a great way
+                      to bring a large group together for the ultimate
+                      celebration. You can meet with our event manager to plan
+                      all the celebration details:
+                    </p>
+                    <ul>
+                      <li><i class="bi bi-check-circle"></i> Food.</li>
+                      <li><i class="bi bi-check-circle"></i> Drinks.</li>
+                      <li>
+                        <i class="bi bi-check-circle"></i> Decorations and party
+                        layout.
+                      </li>
+                    </ul>
+                    <p>
+                      We will make sure you have a fantastic birthday party.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6 d-lg-flex align-items-center">
+                    <img
+                      src="assets/img/events/event-holiday.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Holiday Parties & More</h3>
+                    
+                    <p class="fst-italic">
+                      The holidays are a hectic time of year. With all the
+                      responsibilities that come along with hosting, the
+                      holidays can come and go without much fun at all. Spend
+                      more time with your family and less time in the kitchen by
+                      having your holiday celebration at Pasta Cosi. There are
+                      many more types of events that we can host at Pasta Cosi
+                      like:
+                    </p>
+                    <ul>
+                      <li>
+                        <i class="bi bi-check-circle"></i> Graduation parties.
+                      </li>
+                      <li>
+                        <i class="bi bi-check-circle"></i> Engagement parties.
+                      </li>
+                      <li>
+                        <i class="bi bi-check-circle"></i> Retirement parties.
+                      </li>
+                    </ul>
+                    <p>We will make sure you have a fantastic event party.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6 d-lg-flex align-items-center">
+                    <img
+                      src="assets/img/events/event-baby.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Baby & Bridal Showers</h3>
+                    <p class="fst-italic">
+                      Both of these events are the perfect way to celebrate your
+                      amazing news! We can create a stress-free way to celebrate
+                      your special occasion for an intimate gathering with
+                      friends and family! We will take care of:
+                    </p>
+                    <ul>
+                      <li><i class="bi bi-check-circle"></i> Set up.</li>
+                      <li><i class="bi bi-check-circle"></i> Food.</li>
+                      <li><i class="bi bi-check-circle"></i> Drinks.</li>
+                    </ul>
+                    <p>
+                      while you focus on the invites, party favors, and
+                      decorations and other details for your event.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Events Section -->
+
+      
+<!-- End Book A Table Section -->
+
+<script>
+document.getElementById('bookTableForm').addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevent the default form submission
+
+  // Collect form data
+  const formData = new FormData(this);
+  const params = new URLSearchParams();
+
+  formData.forEach((value, key) => {
+    params.append(key, value);
+  });
+
+  // Redirect to the new page with the form data as query parameters
+  window.location.href = 'booktable.html?' + params.toString();
+});
+</script>
+
+       
+
+    
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery" class="gallery">
+        <div class="container-fluid max-width-container">
+          <div class="section-title">
+            <h2>Some photos from <span>Our Restaurant</span></h2>
+          </div>
+          <div class="row g-2">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-1.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-1.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-2.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-2.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-3.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-3.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-4.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-4.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-5.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-5.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-6.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-6.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-7.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-7.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-8.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-8.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Gallery Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials">
+        <div class="container position-relative max-width-container">
+          <div
+            class="testimonials-slider swiper"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/bachir.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Raju</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    The best pasta in India. Very good dishes, greedy portions,
+                    appetizing presentations, to be repeated and I strongly
+                    advise to all lovers of good pasta.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/sywar.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Alia</h3>
+                  <h4>Designer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Freshness, variety, quality and impeccable service I will
+                    certainly come back.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/rahma.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Teju</h3>
+                  <h4>Store Owner</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    For pasta lovers 🍝 Pasta Cosi Is the best address a fast
+                    service, nice setting and the dishes are too too good .👌🏻 I
+                    highly recommend it.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/oussama.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Prathap</h3>
+                  <h4>Freelancer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Tasty food which really taste well
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/mehdi.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Vijay</h3>
+                  <h4>Entrepreneur</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    For years the quality is excellent this place does not
+                    change but the menu is constantly enriched.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container max-width-container">
+          <div class="section-title">
+            <h2><span>Contact</span> Us</h2>
+            <p>Show Our Location Map.</p>
+          </div>
+
+          <div class="map">
+            
+            <div style="width: 100%"><iframe width="1240" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=720&amp;height=350&amp;hl=en&amp;q=Chennai+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps vehicle tracker</a></iframe></div>
+          </div>
+        </div>
+
+        <div class="container mt-5 max-width-container">
+          <div class="info-wrap">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 info">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Car Street<br />1053 Tamilnadu,INDIA</p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                <i class="bi bi-clock"></i>
+                <h4>Open Hours:</h4>
+                <p>Monday-Thursday:<br />12:00 AM - 23:00 PM</p>
+                <p>Friday-Sunday:<br />12:00 AM - 00:00 PM</p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>nishanthrestaurant@example.com</p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>9876543219</p>
+              </div>
+            </div>
+          </div>
+
+          <form role="form" class="email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input
+                type="text"
+                class="form-control"
+                name="subject"
+                id="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group mt-3">
+              <textarea
+                class="form-control"
+                name="message"
+                rows="5"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">
+                Your message has been sent. Thank you!
+              </div>
+            </div>
+            <div class="text-center">
+              <button type="reset">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <h3>Nishanth restaurant</h3>
+        <p>
+          World famous restaurant
+        </p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/pastacositn/" class="facebook"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/pastacositn/" class="instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+        <div class="copyright">
+          &copy; Copyright <strong><span>Nishanth</span></strong
+          >. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="main.js"></script>
+  </body>
+</html>
